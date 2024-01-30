@@ -1,0 +1,71 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JKUAT</title>
+    <link rel="icon" type="image/png" href="{% static 'img/ico.png' %}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to JKUAT</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#">Programs</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Unlocking Your Potential</h2>
+        <p>Discover a world of opportunities at JKUAT</p>
+        <a href="/programs" class="cta-button">Explore Programs</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat justo eu risus fringilla.</p>
+    </section>
+
+    <section id="admissions">
+        <h2>Admissions</h2>
+        <p>Learn how to apply and join our community of learners.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, feel free to get in touch with us.</p>
+    </section>
+
+    <button id="chatbot-toggle" aria-label="Open chatbot">
+        💬
+    </button>
+    
+    <div id="chat-container" style="display: none;">
+        <div id="chat-header">
+            <img src="{% static 'img/edu.png' %}" alt="JKUAT Logo" id="chat-logo" />
+            <h2 id="chat-title">EduBot</h2>
+            <span class="close-button" id="close-chat">&times;</span>
+        </div>
+        <div id="chat-window">
+            <!-- Messages will be appended here -->
+        </div>
+        <div id="input-area">
+            <input type="text" id="chat-input" placeholder="Type your message here..." />
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 JKUAT</p>
+    </footer>
+    <script src="{% static 'script.js' %}"></script>
+</body>
+</html>
