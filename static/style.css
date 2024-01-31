@@ -192,9 +192,9 @@ footer {
   }
   
   /* Chat header */
-  #chat-header {
-    /* Your styles for the header */
-  }
+  /* #chat-header {
+    Your styles for the header
+  } */
   
   /* Chat window */
   #chat-window {
@@ -204,9 +204,9 @@ footer {
   }
   
   /* Input area */
-  #input-area {
-    /* Your styles for the input area */
-  }  
+  /* #input-area {
+    Your styles for the input area
+  }   */
   #chat-input {
     width: calc(100% - 90px); /* Adjust the width to leave space for the button */
     padding: 12px 15px; /* Vertical and horizontal padding */
