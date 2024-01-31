@@ -9,48 +9,57 @@
     <link rel="icon" type="image/png" href="{% static 'img/ico.png' %}">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="{% static 'style.css' %}">
+    <style>
+        a:hover{
+            opacity: 0.5;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div>  <img class="logo" src="{% static 'img/jkuat-logo.png' %}" alt="Logo" width="8%" 
-            style="position: fixed; top: 10px; left: 10px;">
-        <h2>JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY</h2>
-        <h4>Setting Trends in Higher Education, Research, Innovation and Entrepreneurship</h4>
+        <div class="intro-jkuat">
+            <img class="logo" src="{% static 'img/jkuat-logo.png' %}" alt="Logo" width="8%" 
+            style="position: absolute; top: 10px; left: 10px;">
+            
+            <h2>JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY</h2>
+            <h4 style="color: #a3a3a3;">Setting Trends in Higher Education, Research, Innovation and Entrepreneurship</h4>
         </div>
         <nav>
             <ul>
                 <li><a href="">Home</a></li>
-                <li><a href="">About JKUAT</a></li>
-                <li><a href="">Administration</a></li>
-                <li><a href="">Academics</a></li>
-                <li><a href="">Research</a></li>
-                <li><a href="">Library & eLearning</a></li>                
-                <li><a href="#">Programs</a></li>
-                <li><a href="#">Admissions</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About JKUAT</a></li>
+                <li><a href="#Administration">Administration</a></li>
+                <li><a href="#Academics">Academics</a></li>
+                <li><a href="#Research">Research</a></li>
+                <li><a href="#Library-&-eLearning">Library & eLearning</a></li>                
+                <li><a href="#Programs">Programs</a></li>
+                <li><a href="#Admissions">Admissions</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="hero">
+    <section id="hero" style="color: black;">
         <h2>Unlocking Your Potential</h2>
-        <p>Discover a world of opportunities at JKUAT</p>
-        <a href="#" class="cta-button">Explore Programs</a>
+        <h4>Discover a world of opportunities at JKUAT</h4>
+        <a href="#Explore-Programs" class="cta-button">Explore Programs</a>
     </section>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat justo eu risus fringilla.</p>
-    </section>
+    <section id="about" style="background-color: yellowgreen;">
+        <h3 style="text-decoration: underline black;">Vision, Mission & Objectives</h3>
 
-    <section id="admissions">
-        <h2>Admissions</h2>
-        <p>Learn how to apply and join our community of learners.</p>
-    </section>
+        <h4 style="text-decoration: underline black;">University Vision</h4>
+        <p>
+            A University of global excellence in Training, Research, Innovation and Entrepreneurship for development.
+        </p>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>If you have any questions or need assistance, feel free to get in touch with us.</p>
+        <h4 style="text-decoration: underline black;">University Mission</h4>
+        <p>
+            To offer accessible quality training, research, innovation and entrepreneurship in order 
+            to produce leaders in the fields of Agriculture, <br> Engineering, Technology, Enterprise Development, 
+            Built Environment, Health Sciences, <br> Social Sciences and other Applied Sciences to suit the needs of 
+            a dynamic world.
+        </p>
     </section>
 
     <button id="chatbot-toggle" aria-label="Open chatbot">
@@ -73,7 +82,7 @@
     </div>
     
     <footer>
-        <p>&copy; 2023 JKUAT</p>
+        <p>&copy; 2024 Jomo Kenyatta University of Agriculture and Technology</p>
     </footer>
     <script src="{% static 'script.js' %}"></script>
 </body>
