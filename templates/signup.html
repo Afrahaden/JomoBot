@@ -8,6 +8,9 @@
     <link rel="icon" type="image/png" href="{% static 'img/jkuat-logo.png' %}">
     <link rel="stylesheet" href="{% static 'style.css' %}">
     <style>
+        body{
+            background-color: rgb(119, 201, 119);
+        }
         /* Your existing styles */
           .signup-box{
             position: absolute;
@@ -143,7 +146,7 @@
             {% endfor %}
 
             <button type="submit">Signup</button>
-            <a href="{% url 'login' %}" class="login-link">Already have an account? Login here</a>
+            <a href="{% url 'login' %}" class="login-link">Already have an account? <strong style="color: rgb(5, 5, 100);">Login here</strong></a>
         </form>
     </div>
 </body>

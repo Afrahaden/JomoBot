@@ -7,7 +7,10 @@
     <title>JKUAT - Login</title>
     <link rel="icon" type="image/png" href="{% static 'img/jkuat-logo.png' %}">
     <link rel="stylesheet" href="{% static 'style.css' %}">
-    <style>      
+    <style>  
+        body{
+            background-color: rgb(119, 201, 119);
+        }    
         .login-box{
             position: absolute;
             top: 50%;
@@ -129,7 +132,7 @@
                 <label for="password">Password</label>
             </div>
             <button type="submit">Login</button>
-            <a href="{% url 'signup' %}" class="register-link">Don't have an account? Register here</a>
+            <a href="{% url 'signup' %}" class="register-link" style="text-decoration: none;">Don't have an account? <b style="color: rgb(5, 5, 100);">Register here</b></a>
         </form>        
     </div>   
 </body>
