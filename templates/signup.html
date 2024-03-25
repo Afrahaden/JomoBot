@@ -116,6 +116,21 @@
             font-size: 14px;
             margin-top: 5px;
         }
+          /* Styling messages */
+    .messages {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .message {
+        color: #ee0018;
+        font-size: large;
+        font-weight: bolder;
+        padding: 10px;
+        margin-top: 5px;
+        text-align: center;
+    }
     </style>
 </head>
 <body>
@@ -124,14 +139,20 @@
         <form method="post">
             {% csrf_token %}
             
-            {% if messages %}
+            <!-- {% if messages %}
                 <ul>
                     {% for message in messages %}
                         <li>{{ message }}</li>
                     {% endfor %}
                 </ul>
-            {% endif %}
-
+            {% endif %} -->
+            {% if messages %}
+     <ul class="messages">
+         {% for message in messages %}
+             <li class="message">{{ message }}</li>
+         {% endfor %}
+     </ul>
+ {% endif %}
             {% for field in form %}
                 <div class="user-box">
                     <input type="{{ field.field.widget.input_type }}"

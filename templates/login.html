@@ -109,16 +109,39 @@
         .register-link:hover {
             text-decoration: underline;
         }
+        /* Styling messages */
+    .messages {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .message {
+        color: #ee0018;
+        font-size: large;
+        font-weight: bolder;
+        padding: 10px;
+        margin-top: 90px;
+        text-align: center;
+    }
     </style>
 </head>
 <body>
-    {% if messages %}
+    <!-- {% if messages %}
         <ul>
             {% for message in messages %}
                 <li>{{ message }}</li>
             {% endfor %}
         </ul>
-    {% endif %}
+    {% endif %} -->
+     <!-- Displaying messages -->
+     {% if messages %}
+     <ul class="messages">
+         {% for message in messages %}
+             <li class="message">{{ message }}</li>
+         {% endfor %}
+     </ul>
+ {% endif %}
     <div class="login-box">
         <h2>Login</h2>
         <form method="post">

@@ -25,7 +25,7 @@ def user_login(request):
             auth_login(request, user)  
             return redirect('home')
         else:
-            messages.error(request, 'Invalid login credentials.')
+            messages.error(request, 'Invalid login credentials')
 
     return render(request, 'login.html')
 
@@ -34,10 +34,10 @@ def signup(request):
         form = CustomUserCreationForm(request.POST)
         if form.is_valid():
             form.save()
-            messages.success(request, 'Signup successful. You can now login.')
+            messages.success(request, 'Signup successful. You can now login')
             return redirect('login')
         else:
-            messages.error(request, 'An error occurred.')
+            messages.error(request, 'An error occurred')
             print(form.errors)
     else:
         form = CustomUserCreationForm()
