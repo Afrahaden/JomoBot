@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Edubot',
+        'NAME': 'JomoBot',
         'USER': 'postgres',
         'PASSWORD': '12345',
         'HOST': 'localhost',  # Or an IP Address that your DB is hosted on
