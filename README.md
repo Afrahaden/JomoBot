@@ -4,25 +4,24 @@ JomoBot is a sophisticated chatbot system designed specifically for universities
 
 ## Key Features
 
-- **Interactive Interface**: JomoBot offers a user-friendly chat interface for students, parents, and staff to ask questions and receive instant responses.
-- **Comprehensive Knowledge Base**: Backed by a comprehensive knowledge base, JomoBot can answer queries related to admissions, fees, schedules, facilities, and more.
-- **24/7 Availability**: JomoBot is available round-the-clock, ensuring users can access information at any time, even outside of regular office hours.
-- **Customizable Responses**: The chatbot system can be customized to incorporate university-specific information, policies, and procedures, providing tailored responses to meet the institution's unique needs.
-- **Continuous Improvement**: JomoBot utilizes machine learning algorithms to continuously learn from user interactions and improve its response accuracy over time.
+- **Interactive Interface**
+- **Comprehensive Knowledge Base**
+- **24/7 Availability**
+- **Customizable Responses**
+- **Continuous Improvement**
 
 ## How It Works
 
 1. **User Interaction**: Users initiate a conversation with JomoBot by typing their queries into the chat interface.
 2. **Natural Language Processing**: JomoBot processes the user's input using natural language processing techniques to understand the query's intent and extract relevant information.
 3. **Response Generation**: Based on the user's query and the information available in its knowledge base, JomoBot generates a response tailored to the user's needs.
-4. **Feedback Loop**: Users can provide feedback on the accuracy and helpfulness of JomoBot's responses, allowing the system to continuously improve and refine its performance.
 
 ## Benefits
 
-- **Efficient Information Retrieval**: JomoBot eliminates the need for users to search through lengthy documents or wait for manual responses, allowing them to quickly find the information they need.
-- **Enhanced User Experience**: By providing instant, personalized assistance, JomoBot enhances the overall user experience and satisfaction levels within the university community.
-- **Resource Optimization**: JomoBot reduces the workload on university staff by automating routine inquiries, allowing them to focus on more complex tasks.
-- **Scalability**: The chatbot system can scale to accommodate a large volume of inquiries from university students, faculty, and stakeholders without compromising performance or responsiveness.
+- **Efficient Information Retrieval**
+- **Enhanced User Experience**
+- **Resource Optimization**:
+- **Scalability**
 
 ## Implementation
 
