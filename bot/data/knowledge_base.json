@@ -3063,7 +3063,7 @@
   },
   {
     "question":"Courses in SCIT",
-    "answer":"1. B.Sc. Computer Science 2. B.Sc. Computer Technology3. B.Sc. Information Technology 4. B.Sc. Business Computing"
+    "answer":"1. B.Sc. Computer Science 2. B.Sc. Computer Technology 3. B.Sc. Information Technology 4. B.Sc. Business Computing"
 
   },
   {
@@ -30155,7 +30155,36 @@
   "question":"school fees",
   "answer":"The fees for average JKUAT degree program is Kshs. 100,000 per semester."
 
+},
+{
+  "question": "What courses does JKUAT offer?",
+  "answer": "JKUAT offers a wide range of undergraduate, postgraduate, and diploma courses in various fields including agriculture, engineering, computing, health sciences, business, and more. You can find the complete list on the JKUAT website."
+},
+{
+  "question": "What are the registration dates for the upcoming semester?",
+  "answer": "Registration dates for the upcoming semester can be found on the student portal."
+},
+{
+  "question": "How can I access my grades/transcript?",
+  "answer": "You can access your grades and transcript by logging into your student portal."
+},
+{
+  "question": "Where can I find information about student housing options?",
+  "answer": "Information about student housing options can be found on your student portal."
+},
+{
+  "question": "What clubs and organizations are available for students to join?",
+  "answer": "There are various clubs and organizations available for students to join, including academic, cultural, and recreational clubs. Please visit the student portal for a list of available options."
+},
+{
+  "question": "How do I apply for scholarships or financial aid?",
+  "answer": "To apply for scholarships or financial aid, please visit the Dean of Students office where you can receive guidance and assistance."
+},
+{
+  "question": "Where can I find the academic calendar for this year?",
+  "answer": "You can find the academic calendar for this year on the website of your respective department."
 }
+
    
   ]
 }
