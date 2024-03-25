@@ -1,4 +1,4 @@
-# JomoBot: University School Inquiry Chatbot System
+# JomoBot: University Inquiry Chatbot System
 
 JomoBot is a sophisticated chatbot system designed specifically for universities. It aims to enhance information retrieval and user experience within the university community. With its intuitive interface and robust functionality, JomoBot streamlines the process of handling school inquiries and provides timely, accurate responses to students, parents, and staff.
 
