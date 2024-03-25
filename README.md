@@ -8,7 +8,6 @@ JomoBot is a sophisticated chatbot system designed specifically for universities
 - **Comprehensive Knowledge Base**
 - **24/7 Availability**
 - **Customizable Responses**
-- **Continuous Improvement**
 
 ## How It Works
 
@@ -22,14 +21,6 @@ JomoBot is a sophisticated chatbot system designed specifically for universities
 - **Enhanced User Experience**
 - **Resource Optimization**:
 - **Scalability**
-
-## Implementation
-
-JomoBot can be seamlessly integrated into a university's website or communication platforms, such as the student portal or official social media channels. Its modular architecture allows for easy customization and integration with existing systems.
-
-## Get Started with JomoBot
-
-To experience the benefits of JomoBot firsthand, university students, faculty, and staff can access the chatbot system through the institution's official website or communication platforms. For inquiries or assistance, please contact the university's IT department.
 
 ---
 
